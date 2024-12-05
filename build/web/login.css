@@ -1,0 +1,84 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body{
+    background-color: white;
+}
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+
+
+}
+.form {
+    position: relative;
+  
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+
+
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    
+
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+
+    font-size: 14px;
+}
+
+.form input:hover {
+    transition-duration: 1s;
+    padding: 16px;
+}
+
+.form button {
+
+    text-transform: uppercase;
+    outline: 0;
+    background-color:blue;
+      
+
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color:white;
+    font-weight:500;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+
+    cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+    transition-duration: 1s;
+    padding: 16px;
+        background-color:black;
+
+    color:white;
+
+
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+h2
+{
+      font-family: "Fredoka", sans-serif;
+
+}
+
